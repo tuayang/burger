@@ -10,7 +10,7 @@ if (process.env.JAWSDB_URL) {
     port: 3306,
     host: "localhost",
     user: "root",
-    password: "Ebsports1!",
+    password: "",
     database: "burgers_db"
   });
 }
@@ -25,3 +25,4 @@ connection.connect(function(err) {
 });
 
 module.exports = connection;
+
