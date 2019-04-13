@@ -1,0 +1,65 @@
+html, body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header {
+	font-size: 40px;
+	color: black;
+}
+
+section {
+	float: left;
+	min-width: 50%;
+}
+
+li {
+  list-style: none;
+}
+
+
+span {
+	float: left;
+}
+
+.container {
+	vertical-align: middle;
+}
+
+#addButton {
+	border-radius: 7px;
+	background-color: rgb(32, 175, 32);
+	color: white;
+}
+
+#openTextbox {
+	border-radius: 7px;
+	width: 45%;
+	position: relative;
+	left: 25%;
+	filter: grayscale(100%);
+}
+
+
+.burgers {
+	width:	70%;
+	background: white;
+	padding-left: 5%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	margin: 1%;
+}
+
+.update-form {
+  padding: 5px;
+  margin: 5px;
+}
+
+.devour-button {
+	border-radius: 7px;
+	color: white;
+	background-color: rgb(32, 175, 32);
+}
+
+#add-burger {
+	vertical-align: middle;
+}
