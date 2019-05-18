@@ -1,21 +1,17 @@
 {
   "name": "burger",
   "version": "0.0.1",
-  "description": "Simple restaurant app build with node express, mysql, and handlebars.",
+  "description": "burger app with node express, mysql, and handlebars.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Meggin/burger.git"
+    "url": "git+https://github.com/tuayang/burger"
   },
-  "author": "Meggin Kearney",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Meggin/burger/issues"
-  },
-  "homepage": "https://github.com/Meggin/burger#readme",
+  
+  "homepage": "https://github.com/tuayang/burger",
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
